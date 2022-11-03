@@ -1,11 +1,11 @@
 require("dotenv").config();
-const recipeRoutes = require('./src/routes/productsRoutes');
+const productRoutes = require('./src/routes/productsRoutes');
 const express = require("express");
 const app = express();
 
 const PORT = process.env.PORT;
 
-const productRoutes = require('./src/routes/productsRoutes');
+const recipeRoutes = require('./src/routes/recipesRoutes');
 
 app.use(express.json());
 
