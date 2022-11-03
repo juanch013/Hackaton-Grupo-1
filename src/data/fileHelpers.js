@@ -2,7 +2,7 @@ const fs  = require('fs');
 
 const getProducts = ()=>{
     try {
-        let productos = fs.readFileSync('./productos.json','utf-8');
+        let productos = fs.readFileSync(__dirname+'/productos.json','utf-8');
         let res = JSON.parse(productos);
         return res;
     } catch (error) {
@@ -12,7 +12,7 @@ const getProducts = ()=>{
 
 const getRecetas = ()=>{
     try {
-        let recetas = fs.readFileSync('./recipes.json','utf-8');
+        let recetas = fs.readFileSync(__dirname+'/recipes.json','utf-8');
         let res = JSON.parse(recetas);
         return res;
     } catch (error) {
@@ -22,7 +22,7 @@ const getRecetas = ()=>{
 
 const getProductsRecipe = (idReceta)=>{
     try {
-        let recetas = fs.readFileSync('./recipes.json','utf-8');
+        let recetas = fs.readFileSync(__dirname+'/recipes.json','utf-8');
         let res = JSON.parse(recetas);
 
         res.forEach(r => {
@@ -37,4 +37,6 @@ const getProductsRecipe = (idReceta)=>{
     }
 }
 
-module.exports = {getProducts,getRecetas,getProductsRecipe};
+
+module.exports = {getProducts,getRecetas, getProductsRecipe};
+
