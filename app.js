@@ -1,5 +1,5 @@
 require("dotenv").config();
-const recipeRoutes = require('./src/routes/productsRoutes');
+const recipeRoutes = require('./src/routes/recipesRoutes');
 const express = require("express");
 const app = express();
 
