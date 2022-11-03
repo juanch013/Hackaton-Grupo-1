@@ -30,6 +30,59 @@
         "stock":23,
         "categoria":"desayuno",
         "imagen":""
+    },
+    {
+        "id":"5",
+        "nombre":"Harina",
+        "precio":70,
+        "stock":10,
+        "categoria":"harinas",
+        "imagen":""
+    },
+    {
+        "id":"6",
+        "nombre":"Polvo para hornear",
+        "precio":30,
+        "stock":13,
+        "categoria":"harinas",
+        "imagen":""
+    },
+    {
+        "id":"7",
+        "nombre":"Cubito Knor",
+        "precio":50,
+        "stock":42,
+        "categoria":"condimentos",
+        "imagen":""
+    },
+    {
+        "id":"8",
+        "nombre":"Aceite",
+        "precio":100,
+        "stock":9,
+        "categoria":"aceites",
+        "imagen":""
+    },{
+        "id":"9",
+        "nombre":"Salsa de tomate",
+        "precio":80,
+        "stock":7,
+        "categoria":"salsas",
+        "imagen":""
+    },
+    {
+        "id":"10",
+        "nombre":"Lata de atun",
+        "precio":35,
+        "stock":24,
+        "categoria":"carnes",
+        "imagen":""
+    },{
+        "id":"11",
+        "nombre":"Morron",
+        "precio":50,
+        "stock":10,
+        "categoria":"verduras",
+        "imagen":""
     }
-
 ]
