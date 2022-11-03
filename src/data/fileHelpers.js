@@ -43,7 +43,7 @@ const getRecetasPorProd = (idProd)=>{
         let res = JSON.parse(recetas);
 
         res.forEach(r => {
-            if(r.id == id){
+            if(r.id == idReceta){
                 return r.ingredientes
             }
         });

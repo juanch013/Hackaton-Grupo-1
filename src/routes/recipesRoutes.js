@@ -7,4 +7,6 @@ router.get('/', recipeController.listar);
 router.get('/:id/ingredients',recipeController.ingredients);
 
 
+router.get('/ingrediente', recipeController.buscarIngrediente);
+
 module.exports = router; 
