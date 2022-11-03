@@ -1,4 +1,5 @@
 
+
 const {getProducts} = require('../data/fileHelpers')
 
 module.exports = {
@@ -12,4 +13,3 @@ module.exports = {
         })
     }
 }
-
