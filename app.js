@@ -1,5 +1,4 @@
 require("dotenv").config();
-const productRoutes = require('./src/routes/productsRoutes');
 const recipeRoutes = require('./src/routes/productsRoutes');
 const express = require("express");
 const app = express();
@@ -11,7 +10,7 @@ const productRoutes = require('./src/routes/productsRoutes');
 app.use(express.json());
 
 app.use("/api/products", productRoutes);
-// app.use("/api/recipes", recipeRoutes);
+app.use("/api/recipes", recipeRoutes);
 
 const server = app.listen(PORT, () => {
     console.log(__dirname);

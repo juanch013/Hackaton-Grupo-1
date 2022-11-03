@@ -14,6 +14,7 @@ module.exports = {
 
     ingredients:(req, res)=>{
         const{id} = req.params;
+
         let ingredientes = getProductsRecipe(Number(id));
 
         if(ingredientes == undefined){
