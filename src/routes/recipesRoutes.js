@@ -7,6 +7,6 @@ router.get('/', recipeController.listar);
 
 router.post('/:id/ingredients',recipeController.ingredients);
 
-router.get('/ingrediente', recipeController.buscarIngrediente);
+router.post('/ingrediente', recipeController.buscarIngrediente);
 
 module.exports = router; 
