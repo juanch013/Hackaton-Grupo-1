@@ -33,7 +33,7 @@
     },
     {
         "id":"5",
-        "nombre":"Harina",
+        "nombre":"Harina 1kg",
         "precio":70,
         "stock":10,
         "categoria":"harinas",
@@ -57,14 +57,14 @@
     },
     {
         "id":"8",
-        "nombre":"Aceite",
+        "nombre":"Aceite 1L",
         "precio":100,
         "stock":9,
         "categoria":"aceites",
         "imagen":"https://geant.vteximg.com.br/arquivos/ids/282186-700-700/502002.jpg?v=637656900819030000"
     },{
         "id":"9",
-        "nombre":"Salsa de tomate",
+        "nombre":"Salsa de tomate 1L",
         "precio":80,
         "stock":7,
         "categoria":"salsas",
@@ -72,17 +72,41 @@
     },
     {
         "id":"10",
-        "nombre":"Lata de atun",
+        "nombre":"Lata de atun 250gr",
         "precio":35,
         "stock":24,
         "categoria":"carnes",
         "imagen":"https://geant.vteximg.com.br/arquivos/ids/274365-1000-1000/710348.jpg?v=637583330315470000"
     },{
         "id":"11",
-        "nombre":"Morron",
+        "nombre":"Unidad Morron",
         "precio":50,
         "stock":10,
         "categoria":"verduras",
         "imagen":"https://geant.vteximg.com.br/arquivos/ids/226358-1000-1000/410003.jpg?v=636802226734900000"
+    },
+    {
+        "id":"12",
+        "nombre":"Carne Picada 500gr",
+        "precio":130,
+        "stock":10,
+        "categoria":"carnes",
+        "imagen":"https://f.fcdn.app/imgs/220eea/www.distribuidoradelacosta.com.uy/dicouy/2baf/original/catalogo/310031001/1920-1200/carne-picada-especial-kg-carne-picada-especial-kg.jpg"
+    },
+    {
+        "id":"13",
+        "nombre":"Cebolla kg",
+        "precio":50,
+        "stock":10,
+        "categoria":"Verduras",
+        "imagen":"https://static4.depositphotos.com/1020804/364/i/450/depositphotos_3649927-stock-photo-fresh-bulbs-of-onion.jpg"
+    },
+    {
+        "id":"14",
+        "nombre":"Quesa muzarella kg",
+        "precio":70,
+        "stock":10,
+        "categoria":"Lacteos",
+        "imagen":"https://d2j6dbq0eux0bg.cloudfront.net/images/62202228/2355304352.jpg"
     }
 ]
