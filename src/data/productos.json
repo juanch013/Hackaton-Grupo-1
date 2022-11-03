@@ -1,0 +1,35 @@
+[
+    {
+        "id":"1",
+        "nombre":"Milanesa",
+        "precio":130,
+        "stock":10,
+        "categoria":"carne",
+        "imagen":""
+    },
+    {
+        "id":"2",
+        "nombre":"Papas",
+        "precio":20,
+        "stock":150,
+        "categoria":"verduras",
+        "imagen":""
+    },
+    {
+        "id":"3",
+        "nombre":"Pan rallado 500grs",
+        "precio":145,
+        "stock":30,
+        "categoria":"harinas",
+        "imagen":""
+    },
+    {
+        "id":"4",
+        "nombre":"Pack 6 huevos",
+        "precio":130,
+        "stock":23,
+        "categoria":"desayuno",
+        "imagen":""
+    }
+
+]
