@@ -37,4 +37,4 @@ const getProductsRecipe = (idReceta)=>{
     }
 }
 
-module.exports = {getProducts,getRecetas};
+module.exports = {getProducts,getRecetas,getProductsRecipe};
